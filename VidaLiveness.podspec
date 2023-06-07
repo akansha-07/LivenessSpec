@@ -27,13 +27,12 @@ Pod::Spec.new do |s|
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
-  s.resources = ['VidaLiveness/Assets/*']
-  s.resource_bundles = ['VidaLiveness/Assets/*']
+  #.resource_bundles = ['VidaLiveness/Assets/*']
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'VidaLiveness/Classes/**/*'
+  #s.source_files = 'VidaLiveness/Classes/**/*'
   s.static_framework = true
   # s.resource_bundles = {
   #   'VidaLiveness' => ['VidaLiveness/Assets/*.png']
