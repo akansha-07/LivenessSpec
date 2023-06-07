@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tabrezp' => 'tabrez@vida.id' }
-  s.source           = { :http => 'https://f005.backblazeb2.com/file/LivenessSDK/VidaLiveness.framework.zip'}#, :tag => s.version.to_s }
+  s.source           = { :http => 'https://f005.backblazeb2.com/file/LivenessFramework/VidaLiveness.framework.zip'}#, :tag => s.version.to_s }
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
