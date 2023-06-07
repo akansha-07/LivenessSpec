@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
   s.resource_bundles = {
-    VidaLiveness => ['Pod/**/*.nib]
+    VidaLiveness => ['Pod/**/*.nib']
   }#['VidaLiveness/*.nib']
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
