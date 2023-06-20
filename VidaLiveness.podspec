@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
      'Resources' => ['VidaLiveness/Assets/*.storyboard']
    }
-  #s.resource = ['VidaLiveness/Assets/**/*']
+  s.resource = ['VidaLiveness/Assets/**/*']
   s.ios.deployment_target = '11.0'
 
   #s.source_files = 'VidaLiveness/Classes/**/*'
