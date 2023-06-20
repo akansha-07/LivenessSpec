@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
   s.resource_bundles = {
-    'VidaLiveness' => ['VidaLiveness/Assets/**/*']
-  }
-  s.resource = ['VidaLiveness/Assets/**/*']
+     'Resources' => ['VidaLiveness/Assets/*.storyboard']
+   }
+  #s.resource = ['VidaLiveness/Assets/**/*']
   s.ios.deployment_target = '11.0'
 
   #s.source_files = 'VidaLiveness/Classes/**/*'
