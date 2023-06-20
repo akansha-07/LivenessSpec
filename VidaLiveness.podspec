@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.vendored_frameworks = 'VidaLiveness.framework'
-  s.preserve_paths      = 'VidaLiveness.framework'
+  s.vendored_frameworks = '.framework'
+  s.preserve_paths      = '.framework'
   s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'DatadogSDK'
 end
