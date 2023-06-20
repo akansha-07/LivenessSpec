@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://bitbucket.org/vidaid/vidaliveness'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tabrezp' => 'tabrez@vida.id' }
-  s.source           = { :http => 'https://LivenessFramework.s3.us-east-005.backblazeb2.com/VidaLiveness.framework.zip'}
+  s.source           = { :http => 'https://LivenessFramework.s3.us-east-005.backblazeb2.com/VidaLiveness.framework.zip}
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
