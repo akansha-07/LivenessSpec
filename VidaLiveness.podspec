@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
-  s.resource_bundles = {
-    'VidaLiveness' => ['VidaLiveness/Assets/**/*']
-  }
+  #s.resource_bundles = {
+  #  'VidaLiveness' => ['VidaLiveness/Assets/**/*']
+  #}
   
   s.ios.deployment_target = '11.0'
 
