@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #s.resource = ['VidaLiveness/Assets/**/*']
   s.ios.deployment_target = '11.0'
 
-  #s.source_files = 'VidaLiveness/Classes/**/*'
+  s.source_files = 'VidaLiveness/Classes/**/*'
   s.static_framework = true
  
   # s.public_header_files = 'Pod/Classes/**/*.h'
