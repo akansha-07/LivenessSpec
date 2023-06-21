@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
   s.resource_bundles = {
-     'Resources' => ['VidaLiveness/Assets/*.storyboard']
+     'Resources' => {:http => 'https://f005.backblazeb2.com/file/LivenessFramework/Resources.bundle.zip'} 
+#'VidaLiveness/Assets/*.storyboard']
    }
   
 #s.resource = ['VidaLiveness/Assets/**/*.storyboard']
