@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.resource_bundles = {
      'Resources' => { :http => 'https://f005.backblazeb2.com/file/LivenessFramework/Resources.bundle.zip'}
-#['VidaLiveness/Classes/**/*.storyboard']
    }
   
   s.resource = ['VidaLiveness/Classes/**/*.storyboard']
