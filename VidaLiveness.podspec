@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
      'Resources' => { :http => 'https://f005.backblazeb2.com/file/LivenessFramework/Resources.bundle.zip'}
    }
   
-  s.resource = ['VidaLiveness/Classes/**/*.storyboard']
+  s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'VidaLiveness/Classes/**/*'
