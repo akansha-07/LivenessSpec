@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VidaLiveness'
-  s.version          = '0.7.6'
+  s.version          = '0.7.5'
   s.summary          = 'Liveness SDK from VIDA'
 
   s.description      = 'SDK to perform active and passive liveness. Can be used to detect presence of an actual person'
