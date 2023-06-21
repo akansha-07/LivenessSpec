@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
   s.resource_bundles = {
-     'Resources' => ['VidaLiveness/Classes/**/*.storyboard']
+     'VidaLivenessResources' => ['VidaLiveness/Classes/**/*.storyboard']
    }
   
   s.resource = ['VidaLiveness/Classes/**/*.storyboard']
