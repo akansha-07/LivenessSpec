@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VidaLiveness'
-  s.version          = '0.7.3'
+  s.version          = '0.7.5'
   s.summary          = 'Liveness SDK from VIDA'
 
   s.description      = 'SDK to perform active and passive liveness. Can be used to detect presence of an actual person'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
   s.resource_bundles = {
-     'Resources' => { :http => 'https://f005.backblazeb2.com/file/LivenessFramework/Resources.bundle.zip'}
+     'Resources' => ['VidaLiveness/Classes/Liveness.storyboard']
    }
   
   s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
