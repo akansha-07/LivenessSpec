@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'VidaLiveness/Classes/**/*'
-  #s.static_framework = true
+  s.static_framework = true
  s.resource_bundles = {
      'Resources' => ['VidaLiveness/Classes/Liveness.storyboard']
    }
