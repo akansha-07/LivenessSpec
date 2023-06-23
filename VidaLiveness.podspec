@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tabrezp' => 'tabrez@vida.id' }
   s.source           = { :http => 'https://f005.backblazeb2.com/file/LivenessSDK/VidaLiveness.framework.zip'}
-  #s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
+  s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
   
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'VidaLiveness/Classes/**/*'
   s.static_framework = true
- s.resource_bundles = {
-     'Resources' => ['VidaLiveness/Classes/Liveness.storyboard']
+  s.resource_bundles = {
+     'Resources' => ['VidaLiveness/Resources/**/*']
    }
   
-  s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
+  #s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
   s.vendored_frameworks = 'VidaLiveness.framework'
   #s.preserve_paths      = 'VidaLiveness.framework'
   s.dependency 'GoogleMLKit/FaceDetection'
