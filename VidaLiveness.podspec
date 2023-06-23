@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = 'VidaLiveness/Classes/**/*'
   s.static_framework = true
   s.resource_bundles = {
-     'Resources' => ['VidaLiveness/Resources/**/*']
+     'Resources' => ['VidaLiveness/Resources/**/*.*']
    }
   
   #s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
