@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   
   #s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
   s.vendored_frameworks = 'VidaLiveness.framework'
-  #s.preserve_paths      = 'VidaLiveness.framework'
+  s.preserve_paths      = 'VidaLiveness.framework'
   s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'DatadogSDK'
 end
