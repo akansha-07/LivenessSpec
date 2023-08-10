@@ -19,10 +19,11 @@ Pod::Spec.new do |s|
   s.source_files = 'VidaLiveness/Classes/**/*'
   s.static_framework = true
   s.resource_bundles = {
-     'Resources' => ['VidaLiveness/Resources/**/*.*']
+     'Resources' => ['VidaLiveness/Assets/**/*.*']
    }
   
   #s.resource = ['VidaLiveness/Classes/Liveness.storyboard']
+  s.frameworks = ['AVFoundation', 'Foundation', 'UIKit']
   s.vendored_frameworks = 'VidaLiveness.framework'
   s.preserve_paths      = 'VidaLiveness.framework'
   s.dependency 'GoogleMLKit/FaceDetection'
